@@ -1,0 +1,35 @@
+.card {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    display: inline-block;
+    padding: 20px 10px;
+    transition: all 0.5s ease 0s;
+    background: rgb(255, 255, 255);
+    min-width: 180px;
+    border-radius: 6px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+    cursor: pointer;
+}
+
+.img {
+    margin: 0px auto;
+    max-width: 60px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: rgb(170 170 170) 0px 0px 0px 5px;
+    pointer-events: none;
+}
+
+.name {
+    font-size: 16px;
+    margin: 15px 0px 0px;
+    font-weight: 300;
+}
+
+.designation {
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
